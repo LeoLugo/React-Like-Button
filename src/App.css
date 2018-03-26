@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.like{
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  margin-top: 300px;
+}
+
+#click {
+  background-color: #3397DA;
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+  color: white;
+  font-family: helvitica;
+  font-size: 20px;
+  box-shadow: 0 6px #2d87c4;
+  outline: none;
+  border-color: #3397DA;
+  cursor: pointer;
+}
+
+#click:active {
+  box-shadow: 0 3px #3397DA;
+  transform: translateY(3px);
+  border-color: #3397DA;
+  outline: none;
+  border: 0;
+}
